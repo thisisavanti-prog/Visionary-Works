@@ -47,3 +47,53 @@ header, main, footer {
 .navbar {
   display: flex;
   justify-content: space-between;
+#team {
+  text-align: center;
+  padding: 60px 20px;
+  background: #0d0d0d; /* dark background */
+  color: #eaeaea;
+}
+
+#team h2 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  color: #00ffe5; /* neon cyan */
+  text-shadow: 0px 0px 10px #00ffe5;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.team-member {
+  width: 200px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00ffe5;
+  box-shadow: 0px 0px 20px rgba(0, 255, 229, 0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 40px rgba(255, 0, 200, 0.9); /* neon magenta on hover */
+}
+
+.team-member h3 {
+  margin-top: 15px;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.team-member p {
+  color: #bbb;
+  font-size: 1em;
+}
