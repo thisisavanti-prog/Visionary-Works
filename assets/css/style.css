@@ -47,6 +47,7 @@ header, main, footer {
 .navbar {
   display: flex;
   justify-content: space-between;
+}
 #team {
   text-align: center;
   padding: 60px 20px;
